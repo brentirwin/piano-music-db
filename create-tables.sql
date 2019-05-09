@@ -4,6 +4,7 @@ CREATE TABLE piece (
   title       TEXT NOT NULL,
   class_id    INT,            -- fk: class.id
   movement    INT,
+  key         TEXT,
   rcm_grade   INT,
   rcm_list    CHAR(1),
   henle_grade INT
