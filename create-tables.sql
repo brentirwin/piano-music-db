@@ -7,7 +7,10 @@ CREATE TABLE piece (
   key         TEXT,
   rcm_grade   INT,
   rcm_list    CHAR(1),
-  henle_grade INT
+  henle_grade INT,
+  learned     INT,  -- bool
+  memorized   INT,  -- bool
+  wishlist    INT   -- bool
 );
 
 CREATE TABLE composer (
